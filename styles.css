@@ -1,0 +1,55 @@
+/* Estilo para el título */
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+/* Estilo para el botón "Agregarmedicamento" */
+#agregar {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Estilo para el formulario */
+.modal-body {
+    padding: 20px;
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+    margin-bottom: 15px;
+}
+
+/* Estilo para el botón "Cerrar menu" y "Añadir medicamento" */
+.modal-footer .btn {
+    margin-right: 10px;
+}
+
+/* Estilo para la tabla de datos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table th, table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+/* Estilo para la opción de "Horario de toma" */
+select.form-select {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+/* Estilo para las filas de datos en la tabla (puedes personalizarlo según tus necesidades) */
+tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
